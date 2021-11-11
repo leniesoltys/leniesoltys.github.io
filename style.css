@@ -88,6 +88,7 @@ body {
   font-family: "Noto Sans Mono", monospace;
   font-size: 40px;
   color: rgb(4, 0, 255);
+  padding-top: 70px;
 }
 
 #links .section-title {
@@ -95,6 +96,7 @@ body {
   font-family: "Noto Sans Mono", monospace;
   font-size: 40px;
   color: rgb(4, 0, 255);
+  padding-top: 90px;
 }
 
 #about .section-image img {
@@ -160,6 +162,10 @@ body {
   align-items: flex-end;
 }
 
+.gallery-item.text-item:hover {
+  opacity: 100%;
+}
+
 .gallery-item p {
   margin: 0;
   padding: 10px;
@@ -167,7 +173,9 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
-
+.gallery-item:hover {
+  opacity: 70%;
+}
 /* .gallery-row-2 .gallery-item {
   flex-basis: calc(100% / 2);
 } */
