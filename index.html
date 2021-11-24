@@ -17,7 +17,13 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
       rel="stylesheet"
     />
-
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/css/lightgallery.min.css"
+    integrity="sha512-e/7+n/bcByOQg6+rGt7Bx12Si0rpj4Xfe3EeS3W2RDSGGG/qT9rC7ZQCVAgaVAmZKZisvZ1DqaMd66TzfVO/Sw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -60,41 +66,41 @@
             <img src="3.png" alt="3" width="297" />
           </p>
         </div> -->
-
+<div class="gallery" id="lightgallery">
         <div class="gallery-row">
-          <div class="gallery-item">
-            <a href="https://www.behance.net/gallery/121798607/SVITANOK-logo"
-              ><img src="1.png" alt="Робота 1"
+          <div class="gallery--item">
+            <a href=file:///C:/Users/reall/Desktop/%D0%B4%D0%B5%D0%B7%D1%96%D0%B3%D0%BD/academy/web/web1/leniesoltys.github.io/1.png target="_blank" data-sub-html="<h4>SVITANOK</h4><p>Logo design for SVITANOK</p>"><img src="1.png" alt="Робота 1"/></a>
+          </div>
+          <div class="gallery--item">
+            <a href=file:///C:/Users/reall/Desktop/дезігн/academy/web/web1/leniesoltys.github.io/2.png target="_blank" data-sub-html="<h4>CARROT STUDIO</h4><p>Logo design for CARROT STUDIO</p>"><img src="2.png" alt="Робота 2"
             /></a>
           </div>
-          <div class="gallery-item">
-            <a
-              href="https://www.behance.net/gallery/121800309/CARROTS-STUDIO-logo"
-              ><img src="2.png" alt="Робота 2"
+          <div class="gallery--item">
+            <a href=file:///C:/Users/reall/Desktop/дезігн/academy/web/web1/leniesoltys.github.io/3.png target="_blank" data-sub-html="<h4>MOVA</h4><p>Identity for MOVA</p>"><img src="3.png" alt="Робота 3"
             /></a>
-          </div>
-          <div class="gallery-item text-item">
-            <p>&nbsp;</p>
           </div>
         </div>
         <div class="gallery-row gallery-row-2">
-          <div class="gallery-item">
-            <a
-              href="https://www.behance.net/gallery/121800781/MOVA-packaging-identity"
-              ><img src="3.png" alt="Робота 3"
-            /></a>
+          <div class="gallery--item">
+            <a href=file:///C:/Users/reall/Desktop/дезігн/academy/web/web1/leniesoltys.github.io/4.png target="_blank" data-sub-html="<h4>SVITANOK</h4><p>Logo for SVITANOK</p>"><img src="4.png" alt="Робота 4"/></a> </div>
+            
+            <div class="gallery--item"> <a href=file:///C:/Users/reall/Desktop/дезігн/academy/web/web1/leniesoltys.github.io/5_2.png target="_blank" data-sub-html="<h4>CARROT STUDIO</h4><p>Logo for CARROT STUDIO</p>"><img src="5_2.png" alt="Робота 5"></a></div>
+            <div class="gallery--item"> 
+              <a href=file:///C:/Users/reall/Desktop/дезігн/academy/web/web1/leniesoltys.github.io/6_4.jpg target="_blank" data-sub-html="<h4>MOVA</h4><p>Identity for MOVA</p>"> <img src="6_4.jpg" alt="Робота 6"></a> </div>
           </div>
-          <div class="gallery-item">&nbsp;</div>
+          <div class="gallery-row gallery-row-2">
+          <div class="gallery--item"><a href=file:///C:/Users/reall/Desktop/дезігн/academy/web/web1/leniesoltys.github.io/7.jpg target="_blank" data-sub-html="<h4>LAYS</h4><p>Eco redesign LAYS</p>"><img src="7.jpg" alt="Робота 7"></a> </div>
+            <div class="gallery-item">&nbsp;</div>
           <div class="gallery-item text-item">
             <p>
               some of май воркs / всі роботи розміщені на біхенс та редімаг
               (посилання внизу сторінки), тому детальніше з кожною роботою
               можете ознайомитися, натиснувши на фото
             </p>
-          </div>
+          </div></div>
         </div>
       </div>
-    </div>
+    </div></div>
 
     <div id="links" class="section">
       <div class="wrapper">
@@ -114,5 +120,17 @@
         </div>
       </div>
     </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/lightgallery.min.js"
+      integrity="sha512-+1CyleTPoFvPO15/CfBZ5h6k/mu/qCQe9uxq1tEfO7SRJ52MnCAQ561bAYkvrsGtnG7AkcvKtVwdeoZc8ps7bQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+
+    <script type="text/javascript">
+      lightGallery(document.getElementById('lightgallery'), {
+          selector: '.gallery--item a',
+        });
+    </script>
   </body>
 </html>
