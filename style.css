@@ -59,8 +59,8 @@ body {
 
 .wrapper {
   width: 900px;
-  margin: 0 auto;  color: darkorange
-;
+  margin: 0 auto;
+  color: darkorange;
   /* margin-bottom: 100px; */
   /* margin-bottom: 100px; */
 }
@@ -87,23 +87,23 @@ body {
 
 #about .section-title {
   width: 100%;
-  font-family: 'Archivo Black', sans-serif;
+  font-family: "Archivo Black", sans-serif;
   font-size: 35px;
-  color: darkorange);
+  color: darkorange;
 }
 
 #portfolio .section-title {
   width: 100%;
-  font-family: 'Archivo Black', sans-serif;
+  font-family: "Archivo Black", sans-serif;
   font-size: 35px;
-  color: #ff8c00);
+  color: #ff8c00;
 }
 
 #links .section-title {
   width: 100%;
-  font-family: 'Archivo Black', sans-serif;
+  font-family: "Archivo Black", sans-serif;
   font-size: 35px;
-  color: darkorange);
+  color: darkorange;
   padding-top: 25px;
 }
 
@@ -123,7 +123,7 @@ body {
 }
 .logo {
   text-decoration: none;
-  font-family:'Archivo Black', sans-serif;
+  font-family: "Archivo Black", sans-serif;
   color: darkorange;
   font-size: 25px;
 }
@@ -141,7 +141,7 @@ body {
 
 .links-text a {
   color: rgb(250, 250, 250);
-  text-decoration: none
+  text-decoration: none;
 }
 .links-text a:hover {
   color: darkorange;
@@ -156,7 +156,6 @@ body {
   text-decoration: none;
   display: flex;
 }
-
 
 .gallery-row {
   display: flex;
@@ -199,7 +198,6 @@ body {
   font-family: "Montserrat", sans-serif;
   color: darkorange;
 }
-
 
 /* .gallery-row-2 .gallery-item {
   flex-basis: calc(100% / 2);
